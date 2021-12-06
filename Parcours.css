@@ -1,0 +1,102 @@
+/* Write some CSS below */
+body {
+	font-family:  'Karla', sans-serif ;
+	font-size: 18px;
+	color: rgb(50,50,50);
+	background-color: rgb(244, 231, 222);
+}
+h1{
+	font-family:'Karla', sans-serif ;
+	color: white;
+}
+
+.banner{
+	text-align: center;
+	background-image: url(Images/Mon-parcours.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	color: white;
+	height: 300px;
+	margin-bottom: 50px;
+	vertical-align: middle;
+}
+.photosport img{
+	width: auto;
+	height: 300px;
+}
+.photosport{
+	text-align: center;
+}
+.Citation-Astérix{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.Citation-Astérix-1{;
+	text-align: justify;
+	margin: 0px;
+	padding: 0px;
+}
+.Citation-Astérix-2{
+	text-align: justify;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+.Citation-Astérix-3{
+	margin: none;
+	text-align: justify;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.Citation-Astérix-4{
+	margin: none;
+	text-align: justify;
+	font-size: 9px;
+	border: none;
+	display: block;
+}
+.Citation-Astérix-5{
+	margin:  none;
+	text-align: justify;
+	font-size: 8px;
+	border: none;
+	display: block;
+}
+.Citation-Astérix-6{
+	margin-bottom: 50px;
+	text-align: justify;
+	font-size: 6px;
+	border: none;
+	display: block;
+}
+.Otis{
+	text-align: center;
+}
+.Otis img{
+	height: 100px;
+	width: auto;
+}
+.footer{
+	text-align: center;
+	background-color: rgb(212,140,94);
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 7fr 1fr;
+	margin-top: 70px;
+
+
+}
+
+.réseaux-sociaux img{
+	width: 30px;
+	height: 30px;
+	align-content: right;
+	vertical-align: middle;
+	margin-top: 15px;	
+}
+.réseaux-sociaux:hover{
+	transform: scale(1.25);
+}
